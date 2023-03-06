@@ -5,15 +5,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>Checkbox</title>
 </head>
 
 <body>
-  <div class="container">
-    <form action="#" class="form">
-      <h2>Добавить товар</h2>
-      <fieldset class="form__box">
+  <form action="#" class="form">
+    <h2>Добавить товар</h2>
+    <fieldset class="form__fieldset">
+      <div class="form__container">
         <label class="form__label">
           <p class="form__name">Наименование</p>
           <input type="text" class="form__input">
@@ -26,10 +26,10 @@
           <p class="form__name">Единицы измерения</p>
           <input type="text" class="form__input">
         </label>
-        <label class="form__label">
+        <label class="form__label form__label--checkbox">
           <p class="form__name">Дисконт</p>
-          <input type="text" class="form__input form__input--size1">
-          <input type="text" class="form__input form__input--size2">
+          <input type="checkbox" class="form__input form__input--checkbox">
+          <input type="text" class="form__input form__input--text">
         </label>
         <label class="form__label">
           <p class="form__name">Описание</p>
@@ -43,10 +43,10 @@
           <p class="form__name">Цена</p>
           <input type="text" class="form__input">
         </label>
-      </fieldset>
-      <button type="submit">Добавить товар</button>
-    </form>
-  </div>
+      </div>
+    </fieldset>
+    <button type="submit">Добавить товар</button>
+  </form>
 </body>
 
 </html>
