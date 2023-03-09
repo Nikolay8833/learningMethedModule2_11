@@ -1,4 +1,10 @@
 .form {
+  max-width: 792px;
+  margin: 50px auto;
+  background-color: #F2F0F9;
+}
+
+.form__wrapper {
   max-width: 580px;
   margin: 0 auto;
 }
